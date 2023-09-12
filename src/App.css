@@ -1,0 +1,26 @@
+.product_Img{
+    height: 10vh;
+    width: 10vw;
+}
+table{
+    border: none;
+    width: 98vw;
+}
+tr:nth-child(even){
+    background-color:lightcoral
+}
+tr,td{
+    height: 10vh;
+    width: 98vw;
+}
+.view_Img{
+    height: 50vh;
+    width: 50vw;
+}
+span{
+    color: orangered;
+    font-size: 50px;
+}
+.head_One{
+    color: darksalmon;
+}
