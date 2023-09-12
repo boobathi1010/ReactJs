@@ -6,7 +6,6 @@ import StarRatings from "react-star-ratings";
 
 export function FetchData(){
     const[record,setRecord]=useState([])
-    const[csv,setCsv]=useState([])
     const[count,setCount]=useState(0)
 
     useEffect(()=>{
@@ -29,7 +28,7 @@ export function FetchData(){
                 <h1>PRODUCTS</h1>
             </div>
             <div className="d-flex justify-content-end">
-                <CSVLink data={csv} headers={headers} filename="Product_data.csv">
+                <CSVLink data={record} headers={headers} filename="Product_data.csv">
                 <button className="btn btn-success position-relative mt-2">DOWNLOAD CSV</button>                   
                 </CSVLink>
             </div>
